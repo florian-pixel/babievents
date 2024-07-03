@@ -2,5 +2,5 @@ export { default } from "next-auth/middleware";
 
 
 export const config = {
-    matcher: ["/events/create", "/events/:id/update"]
+    matcher: ["/profile", "/events/create", "/events/:id/update"]
 }

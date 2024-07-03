@@ -10,7 +10,7 @@ export const metadata = {
 
 export default async function Login({ searchParams }) {
     const data = await getServerSession(authConfig)
-    if (data!=null){
+    if (data!==null){
         redirect('/profile')
     }
     return (
