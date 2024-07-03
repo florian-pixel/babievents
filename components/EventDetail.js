@@ -45,7 +45,7 @@ export default function EventDetail({event, userId}){
                         {
                             organizer._id === userId && (
                                 <>
-                                    <Link href={`/event/${event._id}/update`} className="btn btn-primary">
+                                    <Link href={`/events/${event._id}/update`} className="btn btn-primary">
                                         Edit
                                     </Link>
                                     <button onClick={() => deleteEvent(event._id, '/profile')} className="btn btn-warning">Delete</button>
